@@ -1,0 +1,23 @@
+.someClass {
+
+}
+
+.errorInput {
+    background-color: red;
+}
+
+.input {
+
+}
+
+.button:active {
+    color: green;
+
+}
+.button:hover{
+    background-color:#c8e1ff;
+    border-radius: 5px;
+}
+.error {
+    color: red;
+}

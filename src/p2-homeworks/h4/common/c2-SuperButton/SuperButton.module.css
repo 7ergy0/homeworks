@@ -1,0 +1,44 @@
+.default:not([disabled]) {
+    border-color: green;
+    color: red;
+    box-shadow: 0 0 40px 40px green inset, 0 0 0 0 green;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+
+}
+
+.default:hover:not([disabled]) {
+    color: white;
+    box-shadow: 0 0 2px 0 green inset, 0 0 2px 4px green;
+    background: green;
+    border-color: green;
+}
+
+.default:active:not([disabled]) {
+    color: #c8e1ff;
+}
+
+.default {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.red {
+    border-radius: 10px;
+    border-color: green;
+    color: red;
+    box-shadow: 0 0 40px 40px green inset, 0 0 0 0 green;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.red:hover {
+    color: white;
+    box-shadow: 0 0 2px 0 red inset, 0 0 2px 4px red;
+    background: red;
+    border-color: red;
+}
+
+.red:active {
+    color: green;
+}

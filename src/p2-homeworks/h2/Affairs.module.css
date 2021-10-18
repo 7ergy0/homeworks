@@ -1,0 +1,29 @@
+.someClass{
+
+}
+.activeColor{
+    background-color: #61dafb;
+    margin: 10px;
+    width: 100px;
+}
+.affair{
+display: flex;
+}
+.button{
+    background-color: #ff8579;
+
+
+}
+.item{
+    margin: 10px;
+    width: 100px;
+}
+.high{
+    color: red;
+}
+.middle{
+    color:#ffe71a;
+}
+.low{
+    color: aquamarine;
+}

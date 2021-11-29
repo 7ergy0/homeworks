@@ -1,0 +1,21 @@
+.superSelect{
+    font-size:larger;
+    width: 100px;
+    height: 25px;
+    appearance: none;
+    background:url("https://img.icons8.com/ios/50/000000/down3.png")  no-repeat right center white ;
+    background-size: 20% ;
+    outline: 0;
+    cursor: pointer;
+}
+.superSelect:hover{
+    opacity: 0.8;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+.option:checked{
+    background: #d58b83;
+    color: blue;
+}

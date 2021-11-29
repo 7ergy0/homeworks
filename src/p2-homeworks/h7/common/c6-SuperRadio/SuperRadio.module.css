@@ -1,0 +1,29 @@
+.radio {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.radio:hover {
+    opacity: 0.8;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.radio:checked {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px #236296 solid;
+    background-color: #d58b83;
+
+
+}
+
+

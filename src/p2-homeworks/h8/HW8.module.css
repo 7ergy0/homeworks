@@ -1,0 +1,8 @@
+.items{
+    font-weight: bold;
+    color: #ff8579;
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-left: 10px;
+}

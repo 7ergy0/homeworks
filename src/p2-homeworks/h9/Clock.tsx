@@ -35,12 +35,12 @@ function Clock() {
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
             >
-                {stringTime}
+                <b style={{color:"navy"}}>{stringTime}</b>
             </div>
 
             {show && (
                 <div>
-                    {stringDate}
+                    <b style={{color:"blueviolet"}}>{stringDate}</b>
                 </div>
             )}
 

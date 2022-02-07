@@ -21,3 +21,20 @@
 .some-text {
     color: darkslateblue;
 }
+
+.favorite {
+    background: #caffa5;
+}
+
+.favorite-text {
+    color: red;
+}
+
+.invert {
+    background: aliceblue;
+    filter: invert(100%);
+}
+
+.invert-text {
+    color: red;
+}

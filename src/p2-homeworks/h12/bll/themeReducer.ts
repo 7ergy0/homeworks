@@ -1,5 +1,5 @@
 const initState = {
-    theme: 'some'
+    theme: 'favorite'
 };
 
 
